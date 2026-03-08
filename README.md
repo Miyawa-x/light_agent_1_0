@@ -53,4 +53,4 @@ python chat_cli.py
 
 ## 👨‍💻 Author
 
-**Xie Runxuan** & **Huang Sichen**
+**Rain Shieh** & **Season Huang**
