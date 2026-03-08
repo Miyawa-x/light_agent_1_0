@@ -1,0 +1,14 @@
+# Windows CMD dangerous command patterns (regex, case-insensitive)
+\bformat\b
+\bdiskpart\b
+\bshutdown\b
+\bdel\b\s+.+\s+/s
+\bdel\b\s+.+\s+/q
+\brd\b\s+.+\s+/s
+\brmdir\b\s+.+\s+/s
+\bdelete\b\s+.*\bshadow
+\bvssadmin\b\s+delete
+\bwbadmin\b\s+delete
+\bbcdedit\b
+\bbootrec\b
+\bcipher\b\s+/w

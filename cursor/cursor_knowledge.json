@@ -1,0 +1,24 @@
+{ 
+  \"project_info\": { 
+    \"name\": \"Cursor Control Agent Project\", 
+    \"description\": \"This is a test knowledge base for cursor folder\", 
+    \"created\": \"2026-01-26\" 
+  }, 
+  \"commands\": [ 
+    { 
+      \"command\": \"dir\", 
+      \"description\": \"List directory contents\", 
+      \"usage\": \"dir [options] [path]\" 
+    }, 
+    { 
+      \"command\": \"cd\", 
+      \"description\": \"Change directory\", 
+      \"usage\": \"cd /d [path]\" 
+    } 
+  ], 
+  \"notes\": [ 
+    \"This folder contains cursor-related test files\", 
+    \"Previously created 345.txt with 'helloworld' content\", 
+    \"Knowledge base helps organize project information\" 
+  ] 
+} 
