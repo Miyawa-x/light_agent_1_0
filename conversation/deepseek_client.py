@@ -17,7 +17,7 @@ class DeepSeekClient:
         model: str = DEFAULT_MODEL,
         timeout: int = 60,
     ) -> None:
-        self.api_key = api_key or os.getenv("DEEPSEEK_API_KEY", "***YOUR_API***")
+        self.api_key = api_key or os.getenv("DEEPSEEK_API_KEY", "YOUR_API")
         self.base_url = base_url.rstrip("/")
         self.model = model
         self.timeout = timeout
